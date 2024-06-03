@@ -1,0 +1,61 @@
+.navbar {
+    background-color: #0b2796e4; /* Fondo azul oscuro */
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.navbar-brand{
+    width: auto;
+    display: flex;
+    justify-content: end;
+}
+
+.navbar-brand img {
+    height: 70px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: #ff6600 !important; /* Color naranja para el enlace activo */
+}
+
+.navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-nav li{
+    padding: 0px 40px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.dropdown-menu {
+    background-color: #263778; /* Fondo azul oscuro para el menú desplegable */
+}
+
+.dropdown-item {
+    color: white !important;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #ff6600 !important; /* Color naranja al pasar el cursor */
+    background-color: transparent;
+}
+
+.btn-outline-success {
+    color: white !important;
+    border-color: white !important;
+}
+
+.btn-outline-success:hover {
+    color: #ff6600 !important;
+    border-color: #ff6600 !important;
+}
